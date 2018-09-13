@@ -1,8 +1,8 @@
-//including libabry
+//include in the  libabry
 #include<iostream>
 using namespace std;
 
-//funcion that has two int parameters
+//Write down the function that has two int parameters.
 void funcR(int a, int b, int &c ){
 	if(a<b){
 	c = a;
@@ -11,15 +11,15 @@ void funcR(int a, int b, int &c ){
 	c = b;
 	}
 }
-// drive fuction
+// drive function :
 int main(){int p,q,min;
-	//ask the user for two numners
+	//asking the user for any two numbers
 	cout<< "Let the numbers be : ";
 	cin>>p>>q;
-	//call the numbers for argument
+	//call the numbers for argument .
 	funcR(p,q,min);
-	// tell user the minimum
-	cout<<"The minimum among the numbers "<<p<< " and " << q <<" is "<< min <<endl;
+	// Showing the user the minimum :
+	cout<<"The minimum among the numbers "<< p << " and " << q <<" is "<< min <<endl;
 	
        
 return 0;
