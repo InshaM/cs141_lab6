@@ -1,4 +1,4 @@
-//including in the libraby.
+//including in the library.
 #include<iostream>
 using namespace std;
 
