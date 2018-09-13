@@ -1,5 +1,5 @@
-//include library
-#include <iostream>
+//include in the library.
+#include<iostream>
 using namespace std;
 //main function
 char upper(int p){
@@ -18,21 +18,21 @@ char lower(int p){
 		q=i;}}
 return q;				
 }
-//driving the function
+//The drive function :
 int main(){
-	//declaring variables
+	//declaring the needed variables :
 	char a;
 	int f,p;
-	cout<<"enter any alphabet: ";
+	cout<<"Enter any alphabet: ";
 	cin>>a;
 	p=int(a);
-	//auto change of alphabet
+	//auto change of  the  alphabet :
 	if (int(a)>=97 && int(a)<=122){
-	//type casting for the alphabets(using ascii code)to print uppercase
+	//type casting for the alphabets(using ascii code)to print uppercase :
 	f=upper(p);
 		cout<<"\nThe uppercase of the entered character: "<<char(f-32);}
 	if(int(a)>=65 && int(a)<=90){
-	//type casting for the alphabets(using ascii code)to print lowercase
+	//type casting for the alphabets(using ascii code) to print lowercase :
 		int f=lower(p);
 		cout<<"\nThe lowercase of the entered character: "<<char(f+32)<<endl;}
 return 0;
