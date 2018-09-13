@@ -1,5 +1,5 @@
 //include library
-#include <iostream>
+#include<iostream>
 using namespace std;
 //main function
 char lower(int p){
@@ -10,9 +10,9 @@ char lower(int p){
 		q=i;}}
 return q;				
 }
-//driving the function
+//The drive function:
 int main(){
-	//declaring variables
+	//declaring the needed variables :
 	char a;
 	cout<<"enter any alphabet in uppercase: ";
 	cin>>a;
