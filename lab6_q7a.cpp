@@ -1,18 +1,18 @@
-//include library
-#include <iostream>
+//include in the library.
+#include<iostream>
 using namespace std;
-//main function
+//Write the main function .
 char upper(int p){
 	int q;
-	//giving condition
+	//giving the condition.
 	for(int i=97;i<=122;i++){
 		if(p==i){
 		q=i;}}
 return q;				
 }
-//driving the function
+//The drive function .
 int main(){
-	//declaring variables
+	//declaring the required variables :
 	char a;
 	cout<<"enter any alphabet in lowercase:";
 	cin>>a;
