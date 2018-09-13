@@ -1,7 +1,7 @@
-//including libabry
+//include in the  library.
 #include<iostream>
 using namespace std;
-//funcion to show the outputs the sum of all even numbers between firstNumber and secondNumber.
+//function to show the outputs of the sum of all even numbers between firstNumber and secondNumber.
 //looping
 int sumEven(int num1,int num2){
 	int sum=0;
@@ -10,7 +10,7 @@ int sumEven(int num1,int num2){
 			sum+=i;}}
 	return sum;
 }
-//funcion to show the outputs the sum of all odd numbers between firstNumber and secondNumber.
+//function to show the outputs the sum of all odd numbers between firstNumber and secondNumber.
 //looping
 int sumOdd(int num1,int num2){
 	int sum=0;
@@ -34,7 +34,7 @@ int sumSquareOdd(int num1,int num2){
 	return sum;
 }
 		
-//main function
+//main function:
 int main() {
 	int num1,num2,c;
 //ASK USER
