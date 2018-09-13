@@ -9,7 +9,7 @@ void funcR(int a, int b ,int &c){
 }
 // drive function .
 int main(){int p,q,sum;
-	//ask the user for two numners
+	//ask the user for two numbers
 	cout<< "Let the numbers be : ";
 	cin>>p>>q;
 	//call the number for arguments.
